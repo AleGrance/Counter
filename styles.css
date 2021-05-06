@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.button-container {
+    border: 2px solid powderblue;
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+
+}
+
+p {
+    color: red;
+}
+
+#value {
+    font-family: verdana;
+    font-size: 300%;
+}

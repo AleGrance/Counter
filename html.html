@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing Contador</title>
-    
-    <link rel="stylesheet" href="styles.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/css/uikit.min.css" />
+
 </head>
 
 <body>
-    <main>
-        <div class="container">
-            <h1>
-                Contador
-            </h1>
+
+    <div class="uk-card uk-card-default uk-width-1-2@m">
+        <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-expand">
+                    <h1 class="uk-heading-medium">Contador</h1>
+                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00" id="fecha"></time></p>
+                </div>
+            </div>
         </div>
-        <span id="value">
-            0
-        </span>
-        <div class="button-container">
-            <button class="btn descontar">Descontar</button>
-            <button class="btn resetear">Resetear</button>
-            <button class="btn aumentar">Aumentar</button>
+        <div class="uk-card-body">
+            <h1 id="value">0</h1>
         </div>
-    </main>
+        <div class="uk-card-footer">
+            <button class="uk-button uk-button-danger uk-button-small descontar">Descontar</button>
+            <button class="uk-button uk-button-default uk-button-small resetear">Resetear</button>
+            <button class="uk-button uk-button-secondary uk-button-small aumentar">Aumentar</button>
+        </div>
+    </div>
+
 
     <h1 id="contador"></h1>
     <script src="./script.js"></script>

@@ -1,6 +1,6 @@
 # HTML Counter
 
-Just a simple HTML and Js counter using UIKIT libs style.
+Simple HTML page and Js counter using UIKIT style libs.
 
 ## Usage
 
